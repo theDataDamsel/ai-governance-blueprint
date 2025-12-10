@@ -1,75 +1,53 @@
 # AI Governance Blueprint
 
-Practical frameworks, policies, and templates for AI governance and model risk in enterprises.  
-Focused on regulated, risk sensitive environments rather than lab demos.
+A practical collection of frameworks, policies, process maps and control libraries for governing AI, ML and GenAI systems in enterprise and regulated environments.
 
-## Why this repo exists
+Most AI governance guidance is either too abstract or too technical. This blueprint aims to bridge that gap with structures that executives, risk teams, legal, IT and data teams can all understand and use.
 
-Most AI governance material is either:
+## Contents
 
-- hand wavy ethics slides, or  
-- deeply technical model docs nobody outside the data team reads.
+### 1. Governance Operating Model
+- Roles and responsibilities across business, IT, risk and analytics  
+- RACI charts  
+- AI Center of Excellence structure and mandate  
 
-This repo is meant to sit in the middle:
+### 2. Policies & Standards
+- AI use policy skeleton  
+- Model lifecycle standard for ML and GenAI  
+- Data usage, retention and PII handling guidance  
 
-- concrete enough that data, IT and risk teams can actually use it  
-- structured enough that executives and regulators can understand it
+### 3. Control Libraries
+- Baseline control set for traditional ML  
+- Extended control set for LLMs and GenAI  
+- Mapping to Three Lines of Defence (or equivalent assurance models)  
 
-## What you will find here
+### 4. Process Blueprints
+- Model approval workflow  
+- Exception management & emergency rollback  
+- Monitoring & periodic review requirements  
 
-Planned contents:
+### 5. Assessment Tools
+- AI governance maturity model  
+- CoE readiness assessment  
+- Use-case risk rating framework  
 
-- **Governance operating model**
-  - Roles and responsibilities for an AI Center of Excellence
-  - RACI examples across business, data, IT, legal, risk, and audit
-- **Policy and standards templates**
-  - AI use policy outline
-  - Model risk standard for ML and GenAI
-  - Data usage, retention, and PII handling guidelines
-- **Control libraries**
-  - Example control set for traditional ML
-  - Additional controls for GenAI and LLM usage
-  - Mapping to three lines of defence in regulated environments
-- **Process blueprints**
-  - Model approval workflow
-  - Exception handling and emergency rollback
-  - Periodic review and revalidation
-- **Assessment tools**
-  - AI governance maturity checklist
-  - CoE readiness assessment
-  - Use case risk rating framework
-
-Initially these will be Markdown documents and simple templates. Over time they can become questionnaires, checklists or small tools.
+### 6. Agentic AI Governance
+Emerging section covering:
+- autonomous workflows  
+- agent tool-use risks  
+- multi-step reasoning oversight  
+- behavioural traceability  
 
 ## Who this is for
 
-- Organisations in **regulated industries** (financial services, healthcare, public sector, energy, utilities)
-- AI / data leaders who need to prove to risk, legal, and regulators that AI is under control
-- CoE and GenAI programme leads who want a starting point rather than a blank page
-- Internal audit, compliance, and risk teams who need to review AI programmes
-
-## How to use this repo
-
-- Steal the templates and adapt them to your organisation
-- Use the operating model and RACI examples as a starting point for your CoE design
-- Take the control libraries and map them to your existing risk framework
-- Use the assessment tools as input to board updates or strategic planning
-
-This is not meant to be “the one true way”. It is a pragmatic starting point that reflects how AI actually gets scrutinised in real organisations.
+- AI governance leaders  
+- Heads of AI CoEs  
+- Risk, compliance, legal and audit teams  
+- CIOs, CDOs and transformation leaders  
+- Anyone implementing AI in a regulated environment  
 
 ## Roadmap
 
-Short term:
-
-- Add a basic AI governance operating model and role descriptions
-- Publish a draft AI use policy skeleton
-- Add a model risk and GenAI specific control checklist
-
-Medium term:
-
-- Extend the assessment tools into simple, repeatable questionnaires
-- Add worked examples for a couple of common use cases (eg RAG assistant, decision support model)
-
-Longer term:
-
-- Link this governance blueprint to concrete implementation examples in other repos (RAG templates, GenAI cost monitoring, CoE Lead GPT)
+- Publish templates as editable Markdown & PDF  
+- Add an example governance pack for a sample RAG use case  
+- Add agentic AI decision trees and risk scenarios  
